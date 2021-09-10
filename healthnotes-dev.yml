@@ -1,8 +1,5 @@
 server:
   port: 13000
-spring:
-  application:
-    name: heltnote-api
 
 eureka:
   client:
