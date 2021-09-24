@@ -20,7 +20,11 @@ spring:
 logging:
   level:
     org:
-      hibernate: TRACE
+      hibernate:
+        SQL: debug
+        type:
+          descriptor:
+            sql: debug
 
 eureka:
   client:
